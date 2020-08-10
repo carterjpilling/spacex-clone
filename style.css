@@ -101,23 +101,23 @@ button{
 }
 
 .recent-launch{
-    position: relative;
-    top: 600px;
-    margin-left: 450px;
+    position: absolute;
+    top: 1470px;
+    right: 376px;
     font-size: 20px;
 }
 
 .starlink-mission {
-    position: relative;
-    top: 610px;
-    margin-left: 447.5px;
+    position: absolute;
+    top: 1500px;
+    right: 150px;
     font-size: 20px;
 }
 
 .replay-button-two{
-    position: relative;
-    top: 625px;
-    margin-left: 447.5px;
+    position: absolute;
+    top: 1555px;
+    right: 383px;
     font-size: 10px;
      height: 60px;
      width:150px;
