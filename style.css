@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 500vh;
+    font-family: monospace;
+    color:white;
+    /* padding-top:20vh; */
+}
+.background{
+    background-image: url(https://www.spacex.com/static/images/backgrounds/splashdown_1.webp);
+    height: 100vh;
+    width: 100%;
+    /* position:fixed;
+    top: 0; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    height: 5vh;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 25px;
+    z-index:1;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-list >li{
+    margin-left: 15px;
+}
+
+.hamburger{
+    width: 25px;
+    height: 25px;
+}
+.background-deux{
+    background-image: url(https://www.spacex.com/static/images/backgrounds/starlink9streak_desktop.webp);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-complete{
+    /* width: 100%; */
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 600px;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.crew-dragon{
+    /* width: 100%; */
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 630px;
+    margin-left: 47px;
+    color: white;
+    font-size: 20px;
+}
+
+.replay-button{
+     position: absolute;
+     top: 740px;
+     margin-left: 47px;
+     font-size: 10px;
+     height: 60px;
+     width:150px;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     text-align: center;
+     background-color: inherit;
+    }
+    
+    button:hover{
+        background-color: white;
+        color: black;
+        font-family: monospace;
+    }
+button{
+    border: 2px solid white;
+    color:white;
+    font-family: monospace;
+    background-color: inherit;
+}
+
+.recent-launch{
+    position: relative;
+    top: 600px;
+    margin-left: 450px;
+    font-size: 20px;
+}
+
+.starlink-mission {
+    position: relative;
+    top: 610px;
+    margin-left: 447.5px;
+    font-size: 20px;
+}
+
+.replay-button-two{
+    position: relative;
+    top: 625px;
+    margin-left: 447.5px;
+    font-size: 10px;
+     height: 60px;
+     width:150px;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     text-align: center;
+     background-color: inherit;
+}
